@@ -1,0 +1,49 @@
+/*Variables*/
+$rojo :#E6344A ;
+$blanco :#FEFEFE;
+$azul :#0B5379;
+$celeste :#04779B;
+$amarillo :#FBB351;
+/*Errores*/
+.no-list{
+	list-style: none;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Navegacion*/
+.nav-prop{
+	background: $rojo;
+	color:$blanco;
+}
+
+li{
+	color:$blanco;
+		font-weight: 100;
+		font-size: 1.2em;
+			&:nth-child(1) {
+				border-right: solid;
+
+			}
+			
+		    	a{
+				text-decoration: none;		
+						&:visited{
+							color:$blanco;
+
+						}
+			}
+} 
+
+.padd-largo{
+	padding: 15px  ;
+	margin-top: 0px;
+	}
+		i{
+			color: $blanco;	
+			opacity: 0.5;
+			&:hover{
+				opacity:1;
+			}
+		}

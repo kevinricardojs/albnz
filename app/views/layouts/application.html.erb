@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Albnz</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<nav class="nav-prop">
+			<ul class="no-list row center-xs padd-largo">
+					<li  class="col-md">
+							<strong><%= link_to "albnz.com", root_path %></strong> <i class="fa fa-lg  fa-music"></i>
+					</li>
+					<li  class="col-md">
+						Acordes
+					</li>
+					<li  class="col-md">
+						Aprende
+					</li>
+					<li  class="col-md">
+						Contacto
+					</li>
+			</ul>
+		</nav>
+	</header>
+
+<%= yield %>
+
+</body>
+</html>
